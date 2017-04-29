@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .Aligner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Aligner-item {
+        max-width: 50%;
+    }
+
+    .Aligner-item--top {
+        align-self: flex-start;
+    }
+
+    .Aligner-item--bottom {
+        align-self: flex-end;
+    }
+</style>
+<div class="Aligner">
+    <div class="Aligner-item Aligner-item--top">…</div>
+    <div class="Aligner-item">…</div>
+    <div class="Aligner-item Aligner-item--bottom">…</div>
+</div>
+</body>
+</html>

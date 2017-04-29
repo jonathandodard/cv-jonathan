@@ -1,0 +1,197 @@
+/**
+ * Created by jonathan on 4/27/17.
+ */
+html {
+    height: 100%;
+    margin: 0px;
+}
+body {
+    height: 100%;
+    margin: 0px;
+}
+div {
+    margin: 0px;
+    padding: 0px;
+}
+/*******************************************/
+/**************information******************/
+/*******************************************/
+.information {
+    height: 100%;
+    background-image: url("img/accordReseize.jpg");
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.information p {
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+}
+
+.transparency {
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.56);
+}
+.ta-c {
+    text-align: center;
+}
+.profile {
+    color: #FFFFFF;
+    text-align: right;
+
+}
+
+.imgProfile {
+
+}
+
+.imgProfile img {
+    border-radius: 70px;
+}
+
+.title {
+    color : #FFFFFF;
+    text-align: left;
+}
+.bio {
+    width: 100%;
+    margin-top: 120px;
+}
+.sub-bio {
+    background-color: rgba(47, 37, 37, 0.68);
+    color: #FFFFFF;
+    width: 800px;
+    padding: 28px;
+}
+
+.bio p {
+    text-align: justify;
+}
+
+/*******************************************/
+/**************experience*******************/
+/*******************************************/
+
+.experience {
+    height: 100%;
+    background-image: url("img/getting-work-done-twago.png");
+}
+
+.sub-experience {
+    width: 70%  ;
+}
+
+.krealinks {
+    background-color: #292929;
+    background-image: url("img/KREALINKS_logo1-big.png");
+}
+.krealinks div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.86);
+}
+
+.krealinks div:hover {
+    display: none;
+}
+.krealinks div:not( :hover ){
+    display: block;
+}
+
+
+.sncf {
+    background-color: #292929;
+    background-image: url("img/Logo_SNCF.svg.png");
+}
+
+.sncf div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.86);
+}
+
+.sncf div:hover {
+    display: none;
+}
+
+.webapp {
+    background-color: #292929;
+    background-image: url("img/logo-larger.png");
+}
+
+.webapp div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.86);
+}
+
+.webapp div:hover {
+    display: none;
+}
+
+.jrled {
+    background-color: #292929;
+    background-image: url("img/logo-larger.png");
+}
+
+.jrled div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.86);
+}
+
+.jrled div:hover {
+    display: none;
+}
+
+/*******************************************/
+/************** generic ********************/
+/*******************************************/
+
+.d-ib {
+    display: inline-block;
+}
+
+.ds-f-c {
+    display: flex;
+    justify-content: center;
+}
+
+.s-150-150 {
+    height: 150px;
+    width: 150px;
+}
+
+.s-270-150 {
+    height: 250px;
+    width: 400px;
+}
+
+s-h-100-p {
+    height: 100%;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.ft-L {
+    float: left;
+}
+
+.ft-R {
+    float: right;
+}
+
+.s-w-350-px {
+    width: 350px;
+}
+
+.bg-c-W {
+    background-color: rgba(216, 210, 210, 0.48);
+}
+
+.mrg-top-50-px {
+    margin-top: 50px;
+}
