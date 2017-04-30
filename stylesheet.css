@@ -79,71 +79,64 @@ div {
 }
 
 .sub-experience {
-    width: 70%  ;
+    width: 85%  ;
 }
 
 .krealinks {
     background-color: #292929;
     background-image: url("img/KREALINKS_logo1-big.png");
-}
-.krealinks div {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.86);
+    background-size: 100% 100%;
 }
 
-.krealinks div:hover {
-    display: none;
-}
-.krealinks div:not( :hover ){
-    display: block;
-}
-
+/*.krealinks div {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*background-color: rgba(255, 255, 255, 0.86);*/
+/*}*/
 
 .sncf {
     background-color: #292929;
     background-image: url("img/Logo_SNCF.svg.png");
+    background-size: 100% 100%;
+
 }
 
-.sncf div {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.86);
-}
-
-.sncf div:hover {
-    display: none;
-}
+/*.sncf div {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*background-color: rgba(255, 255, 255, 0.86);*/
+/*}*/
 
 .webapp {
     background-color: #292929;
     background-image: url("img/logo-larger.png");
+    background-size: 100% 100%;
 }
 
-.webapp div {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.86);
-}
-
-.webapp div:hover {
-    display: none;
-}
+/*.webapp div {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*background-color: rgba(255, 255, 255, 0.86);*/
+/*}*/
 
 .jrled {
     background-color: #292929;
-    background-image: url("img/logo-larger.png");
+    background-image: url("img/loog-jrleds.png");
+    background-size: 100% 100%;
 }
 
-.jrled div {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.86);
+.macdonald {
+    background-color: #292929;
+    background-image: url("img/logo-macdonald.png");
+    background-size: 100% 100%;
 }
 
-.jrled div:hover {
-    display: none;
-}
+/*.jrled div {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*background-color: rgba(255, 255, 255, 0.86);*/
+/*}*/
+
 
 /*******************************************/
 /************** generic ********************/
@@ -165,7 +158,7 @@ div {
 
 .s-270-150 {
     height: 250px;
-    width: 400px;
+    width: 32%;
 }
 
 s-h-100-p {
