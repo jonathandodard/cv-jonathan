@@ -109,8 +109,21 @@ div {
 
 .webapp {
     background-color: #292929;
-    background-image: url("img/logo-larger.png");
+    background-image: url("img/logo-webapp.png");
     background-size: 100% 100%;
+}
+
+.ageval {
+    background-color: #292929;
+    background-image: url("img/logo.png");
+    background-size: 100% 100%;
+}
+.ageval div {
+    background-color: black;
+    height: 100%;
+}
+.ageval div:hover {
+    visibility: hidden;
 }
 
 /*.webapp div {*/
