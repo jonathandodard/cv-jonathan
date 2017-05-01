@@ -115,9 +115,10 @@ div {
 
 .ageval {
     background-color: #292929;
-    background-image: url("img/logo.png");
+    background-image: url("img/logo-ageval.png");
     background-size: 100% 100%;
 }
+
 .ageval div {
     background-color: black;
     height: 100%;
