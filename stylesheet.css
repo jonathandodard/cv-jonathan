@@ -8,9 +8,13 @@ html {
 body {
     height: 100%;
     margin: 0px;
+    padding: 0px;
 }
 div {
-    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     padding: 0px;
 }
 /*******************************************/
@@ -80,17 +84,9 @@ div {
 
 .sub-experience {
     width: 85%  ;
+    position: relative;
 }
 
-.sub-block-one {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 0px;
-    background-color: rgba(74, 74, 74, 0.91);
-    color: #FFFFFF;
-    overflow: hidden;
-}
 
 .company h1 {
     margin-top: 5px;
@@ -114,89 +110,72 @@ div {
     margin-right: 15px;
     margin-left: 15px;
 }
+.sub-block {
+    height: 100%;
+    width: 100%;
 
-.sub-block-two {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 0px;
-    background-color: rgba(74, 74, 74, 0.91);
-    color: #FFFFFF;
-    overflow: hidden;
-}
-.sub-block-three {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 0px;
-    background-color: rgba(74, 74, 74, 0.91);
-    color: #FFFFFF;
-    overflow: hidden;
-}
-.sub-block-four{
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 0px;
-    background-color: rgba(74, 74, 74, 0.91);
-    color: #FFFFFF;
-    overflow: hidden;
-}
-.sub-block-five {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 0px;
-    background-color: rgba(74, 74, 74, 0.91);
-    color: #FFFFFF;
-    overflow: hidden;
-}
-.sub-block-six {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 0px;
     background-color: rgba(74, 74, 74, 0.91);
     color: #FFFFFF;
     overflow: hidden;
 }
 
 .krealinks {
-    background-color: #292929;
     background-image: url("img/KREALINKS_logo1-big.png");
-    background-size: 100% 100%;
 }
 
 .sncf {
-    background-color: #292929;
     background-image: url("img/Logo_SNCF.svg.png");
-    background-size: 100% 100%;
-
 }
 
 .webapp {
-    background-color: #292929;
     background-image: url("img/logo-webapp.png");
-    background-size: 100% 100%;
 }
 
 .ageval {
-    background-color: #292929;
     background-image: url("img/logo-ageval.png");
-    background-size: 100% 100%;
 }
 
 .jrled {
-    background-color: #292929;
     background-image: url("img/loog-jrleds.png");
-    background-size: 100% 100%;
 }
 
 .macdonald {
-    background-color: #292929;
     background-image: url("img/logo-macdonald.png");
-    background-size: 100% 100%;
 }
+
+/*******************************************/
+/*************** skill *********************/
+/*******************************************/
+
+.skill {
+    height: 100%;
+    background-image: url("img/skill.jpg");
+}
+.progress {
+    display: inline-block;
+    position: relative;
+    width: 110px; height: 110px;
+}
+
+.img-logo {
+    position: absolute;
+    top: 26px; left: 26px;
+    width: 60px; height: 60px;
+}
+#subBar1, #subBar2, #subBar3, #subBar4, #subBar5, #subBar6, #subBar7 {
+    position: absolute;
+    z-index: 50;
+    top: 0; left: 0;
+}
+
+#bar1, #bar2, #bar3, #bar4, #bar5, #bar6, #bar7 {
+    position: absolute;
+    z-index: 100;
+    top: 0; left: 0;
+}
+
+
+
 
 /*******************************************/
 /************** generic ********************/
@@ -218,7 +197,7 @@ div {
 
 .s-270-150 {
     height: 250px;
-    width: 32%;
+    width: 33%;
 }
 
 s-h-100-p {
@@ -251,4 +230,8 @@ s-h-100-p {
 
 .mrg-top-20-px {
     margin-top: 20px;
+}
+.bg-c-grey-s-100-100 {
+    background-color: #292929;
+    background-size: 100% 100%;
 }

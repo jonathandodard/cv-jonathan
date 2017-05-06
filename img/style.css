@@ -1,0 +1,25 @@
+/**,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}*/
+/*h1{position:absolute;top:25px;right:25px;color:#fff;}*/
+
+.progress {
+    display: inline-block;
+    position: relative;
+    width: 110px; height: 110px;
+}
+
+.img-logo {
+    position: absolute;
+    top: 26px; left: 26px;
+    width: 60px; height: 60px;
+}
+#subBar1, #subBar2, #subBar3, #subBar4, #subBar5, #subBar6, #subBar7 {
+    position: absolute;
+    z-index: 50;
+    top: 0; left: 0;
+}
+
+#bar1, #bar2, #bar3, #bar4, #bar5, #bar6, #bar7 {
+    position: absolute;
+    z-index: 100;
+    top: 0; left: 0;
+}
