@@ -94,21 +94,19 @@ $( ".k-js-sub-block-six" ).click(function() {
     });
 });
 
-$('.arrow').css('left', ($('.diploma').width()/2)-($('.arrow').width()/2))+'px';
-$('.arrow').on('click', function () {
-    $('.diplomaTwo').slideToggle()
-    $('.diplomaThree').slideToggle()
-    if($('.arrowImg').hasClass('arrowRotation')) { $('.arrowImg').removeClass('arrowRotation')} else {$('.arrowImg').addClass('arrowRotation')};
-})
+/** ***** **/
+/** book  **/
+/** ***** **/
+$('.book').turn();
 
 /** ***** **/
 /** skill **/
 /** ***** **/
-circle('subBar1', 100, '#dddddd', '#000000', false);
-circle('subBar2', 100, '#bababa', '#000000', false);
-circle('subBar3', 100, '#bababa', '#000000', false);
-circle('subBar4', 100, '#bababa', '#000000', false);
-circle('subBar5', 100, '#bababa', '#000000', false);
+circle('subBar1', 100, '#dddddd', '8A8A8A', false);
+circle('subBar2', 100, '#bababa', '8A8A8A', false);
+circle('subBar3', 100, '#bababa', '8A8A8A', false);
+circle('subBar4', 100, '#bababa', '8A8A8A', false);
+circle('subBar5', 100, '#bababa', '8A8A8A', false);
 
 
 circle('bar1', 100, '#e44d26', '#e42d1a', true);

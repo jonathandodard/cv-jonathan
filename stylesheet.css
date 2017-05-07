@@ -4,6 +4,8 @@
 html {
     height: 100%;
     margin: 0px;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 body {
     height: 100%;
@@ -167,16 +169,15 @@ div {
     width: 100%;
     background-image: url("img/skill.jpg");
 }
-.sub-skill {
+
+.book {
+    margin-top: 20px;
     width: 85%;
-    height: 100%;
-    position: relative;
+    height: 80%;
 }
+
 .diploma {
-    /*position: absolute;*/
-    /*z-index: 10000;*/
-    width: 100%;
-    /*height: 20%;*/
+    width: 90%;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 5px;
