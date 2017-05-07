@@ -113,33 +113,48 @@ div {
 .sub-block {
     height: 100%;
     width: 100%;
-
     background-color: rgba(74, 74, 74, 0.91);
     color: #FFFFFF;
     overflow: hidden;
 }
 
 .krealinks {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     background-image: url("img/KREALINKS_logo1-big.png");
 }
 
-.sncf {
-    background-image: url("img/Logo_SNCF.svg.png");
-}
-
 .webapp {
+    position: absolute;
+    top: 0px;
     background-image: url("img/logo-webapp.png");
 }
 
 .ageval {
+    position: absolute;
+    top: 0px;
+    right: 0px;
     background-image: url("img/logo-ageval.png");
 }
 
+.sncf {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    background-image: url("img/Logo_SNCF.svg.png");
+}
+
 .jrled {
+    position: absolute;
+    top: 250px;
     background-image: url("img/loog-jrleds.png");
 }
 
 .macdonald {
+    position: absolute;
+    top: 250px;
+    right: 0px;
     background-image: url("img/logo-macdonald.png");
 }
 
@@ -226,6 +241,10 @@ s-h-100-p {
 
 .mrg-top-50-px {
     margin-top: 50px;
+}
+
+.mrg-top-8-px {
+    margin-top: 8px;
 }
 
 .mrg-top-20-px {
