@@ -65,7 +65,7 @@ div {
 .sub-bio {
     background-color: rgba(47, 37, 37, 0.68);
     color: #FFFFFF;
-    width: 800px;
+    width: 85%;
     padding: 28px;
 }
 
@@ -164,8 +164,64 @@ div {
 
 .skill {
     height: 100%;
+    width: 100%;
     background-image: url("img/skill.jpg");
 }
+.sub-skill {
+    width: 85%;
+    position: relative;
+}
+.diploma {
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 3px solid #545656;
+}
+
+.arrow {
+    position: absolute;
+    width: 60px;
+    border: 2px solid #545656;
+    border-radius: 0px 0px 35px 35px;
+}
+.arrowImg {
+    margin-left: 4px;
+    width: 52px;
+}
+.arrowRotation {
+    transform: rotate(180deg);
+}
+
+.diplomaOne, .diplomaTwo, .diplomaThree {
+    height: 32%;
+    width: 100%;
+    border: 1px solid #545656;
+    background-color: #ededed;
+    position: relative;
+}
+.diplomaOne img {
+    width: 100px;
+    float: left;
+}
+.diplomaOne h1 {
+    margin: 0px 30px 0px 30px;
+}
+.diplomaOne .date {
+    float: right;
+    margin: 10px 10% 0px 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.diplomaTwo {
+    height: 120px;
+}
+.diplomaThree {
+    height: 120px;
+}
+.skillDev {
+    width: 100%;
+}
+
 .progress {
     display: inline-block;
     position: relative;
@@ -253,4 +309,8 @@ s-h-100-p {
 .bg-c-grey-s-100-100 {
     background-color: #292929;
     background-size: 100% 100%;
+}
+
+.hidden {
+    display: none;
 }
