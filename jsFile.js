@@ -97,7 +97,11 @@ $( ".k-js-sub-block-six" ).click(function() {
 /** ***** **/
 /** book  **/
 /** ***** **/
-$('.book').turn();
+$("#flipbook").turn({
+    width: 400,
+    height: 300,
+    autoCenter: true
+});
 
 /** ***** **/
 /** skill **/

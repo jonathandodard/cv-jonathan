@@ -1,7 +1,9 @@
 /**
  * Created by jonathan on 4/27/17.
  */
+
 html {
+    font-family: "Georgia, serif", sans-serif;
     height: 100%;
     margin: 0px;
     overflow: scroll;
@@ -175,6 +177,29 @@ div {
     width: 85%;
     height: 80%;
 }
+.hard {
+    background-color: #1a1a1a;
+}
+.book-page-color {
+    background-color: #d6d6d6;
+}
+
+
+/*.book {*/
+    /*width:700px;*/
+    /*height:600px*/
+/*}*/
+
+
+#flipbook{
+    width:800px;
+    height:600px;
+}
+#flipbook .page{
+    width:400px;
+    height:600px;
+}
+
 
 .diploma {
     width: 90%;
